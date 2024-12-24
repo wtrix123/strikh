@@ -1,0 +1,110 @@
+.header {
+  animation: headerslide 6s linear infinite;
+}
+@keyframes headerslide {
+  100% {
+    transform: translateX(-194%);
+  }
+  0% {
+    transform: translateX(0%);
+  }
+}
+.heart2 {
+  animation: invert 2s infinite;
+}
+@keyframes invert {
+  0% {
+    filter: brightness(100%);
+  }
+  25% {
+    filter: brightness(50%);
+  }
+  50% {
+    filter: brightness(0%);
+    opacity: 0;
+  }
+  75% {
+    filter: brightness(50%);
+  }
+  100% {
+    filter: brightness(100%);
+  }
+}
+
+.bird {
+  animation: blink1 1s infinite;
+}
+@keyframes blink1 {
+  100% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+}
+.bird2 {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.forestbg {
+  animation: opacity 2.5s infinite;
+}
+@keyframes opacity {
+  0% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.45;
+  }
+}
+
+.redbirds {
+  animation: birdsred 2.5s linear infinite;
+}
+@keyframes birdsred {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(120%);
+  }
+}
+/* .power span {
+  display: inline-block;
+  animation: rgb 2.5s linear infinite;
+} */
+
+@keyframes rgb {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  25% {
+    color: rgb(255, 41, 41);
+  }
+  50% {
+    color: rgb(255, 0, 0);
+  }
+  75% {
+    color: rgb(255, 46, 46);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+
